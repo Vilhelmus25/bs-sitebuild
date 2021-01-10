@@ -1,0 +1,93 @@
+@font-face{
+     font-family: audiowide;
+    src: url(./Audiowide-Regular.ttf); 
+}
+
+.purple-pink{
+    
+    background-image: url("/bs-sitebuild/img/bg-pattern.png"),linear-gradient(to right,rgb(219,58,68), rgb(123,67,151));
+    background-repeat: repeat;
+}
+
+.phone-main{
+    /* background-image:  url('/bs-sitebuild/img/phone.png');
+    background-repeat: no-repeat;
+    background-size: 100%,100%; */
+}
+
+.phone{
+    width: 100%;
+    height: auto;
+}
+
+.wuzzat-demo{
+   border-radius: 1%;
+    margin-left: 50%;
+    transform: translate(-49.9%,114.5%);
+    width: 88%;
+    height: auto;
+}
+
+.discover{
+    background: rgb(253,203,80);
+}
+
+/* .google-play{
+    max-width:100%;
+}
+
+.app-store{
+    max-width: 100%;
+} */
+
+.divider{
+    border-top: 3px solid #ddd;
+}
+
+@media screen and (max-width: 767px) {
+    .spec-icons{
+        font-size: 7rem;
+        /* color: linear-gradient(to right,rgb(219,58,68), rgb(123,67,151)); */
+        background: -webkit-linear-gradient(0deg, rgb(219,58,68), rgb(123,67,151));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+@media screen and (min-width: 768px) {
+    .spec-icons{
+        font-size: 3rem;
+        /* color: linear-gradient(to right,rgb(219,58,68), rgb(123,67,151)); */
+        background: -webkit-linear-gradient(0deg, rgb(219,58,68), rgb(123,67,151));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+}
+@media screen and (min-width: 992px) {
+    .spec-icons{
+        font-size: 4rem;
+        /* color: linear-gradient(to right,rgb(219,58,68), rgb(123,67,151)); */
+        background: -webkit-linear-gradient(0deg, rgb(219,58,68), rgb(123,67,151));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .spec-icons{
+        font-size: 5rem;
+        /* color: linear-gradient(to right,rgb(219,58,68), rgb(123,67,151)); */
+        background: -webkit-linear-gradient(0deg, rgb(219,58,68), rgb(123,67,151));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+}
+
+/* .stop-waiting-start-building{
+    background-image: url("/bs-sitebuild/img/bg-cta.jpg");
+    
+}
+ */
+
+ .bg-cta{
+    opacity: 0.5;
+ }
+
